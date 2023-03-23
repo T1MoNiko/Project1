@@ -1,4 +1,4 @@
-import Card from "./header/header"
+import Card from "./header/Card"
 
 const Home = (() => {
     return (

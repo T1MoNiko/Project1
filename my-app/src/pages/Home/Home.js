@@ -22,8 +22,14 @@ const Home = () => {
                         <li className={styles.nav_btn}>О нас</li>
                     </ul>
                 </nav>
-                <h1 className={styles.title}>The Best Snickers</h1>
-                <p>Our company has been making quality sneakers for many years, so we advise you to buy something for yourself.  Absolutely all our sneakers are made of incredibly high quality fabric. Very soft inside. All customers are satisfied.</p>
+                <h1 className={styles.title}>The Best Sneakers</h1>
+                <p>
+                    Our company has been making quality sneakers for many years, 
+                    so we advise you to buy something for yourself.
+                    Absolutely all our sneakers are made of incredibly high quality fabric.
+                    Very soft inside. All customers are satisfied.
+                </p>
+                <button>Buy now</button>
             </header>
             <div>
                 {state ? state.map((item, i) => {

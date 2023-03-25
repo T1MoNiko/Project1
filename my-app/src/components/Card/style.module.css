@@ -1,7 +1,7 @@
 .cardContainer {
-    height: 400px;
+    height: 300px;
     width: 200px;
-    background-color: black;
+    background-color: #C0C0C0	;
     background-attachment: fixed;
     border-radius: 10px;
     position: relative;
@@ -11,8 +11,32 @@
     margin-left: 50px;
     margin-top: 80px;
     color: white;
-    opacity: calc(30%);
+    
+    
 
     
     
+}
+.cardContainer > img {
+   height: 120px;
+   width: 190px;
+   position: relative;
+   margin-top: 70px;
+   margin-left: 8px; 
+}
+
+.cardContainer > p {
+    margin-top: 10px;
+    color: black;
+    
+    
+}
+
+
+.cardContainer > hr {
+    margin: 20px 80px;
+	border: none;
+	border-top: 1px solid black;
+    width: 40px;
+      
 }

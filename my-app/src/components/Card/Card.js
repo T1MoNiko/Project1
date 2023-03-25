@@ -6,7 +6,7 @@ const Card = ({imageUrl, title, price}) => {
       <div className={styles.cardContainer}>
        <img src={imageUrl} alt="" />
        <p>{title}</p> 
-       <hr></hr>
+       
        <p>{price}$</p>
      </div>
     )

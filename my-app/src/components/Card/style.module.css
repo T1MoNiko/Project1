@@ -20,12 +20,13 @@
    margin-left: 8px; 
 }
 
-.cardContainer > img::after {
-    width: 10px;
-    height: 20px;
-    border-top: 2px solid black;
+.titleCard::before {
+    content: " ";
     display: block;
-    content:"";
+    width: 70%;
+    height: 20px;
+    border-top: 1.5px solid black;
+    margin: 0 auto;
 }
 
 .cardContainer > p {

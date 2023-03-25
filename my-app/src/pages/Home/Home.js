@@ -31,10 +31,14 @@ const Home = () => {
                 </p>
                 <button>Buy now</button>
             </header>
-            <div>
+            <div className={styles.productsContainer}>
                 {state ? state.map((item, i) => {
                 return <Card key={i} imageUrl={item.imageUrl} title={item.title} price={item.price} />   
                 }) : null}
+            </div>
+            <div className={styles.varya}>
+                <p>Варя я тебя люблю!!!!!</p>
+                <img src="https://thypix.com/wp-content/uploads/herzbild-1.png" alt="" />
             </div>
         </>
         

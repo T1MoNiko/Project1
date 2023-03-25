@@ -39,3 +39,17 @@ header > button:hover {
     transform: translate(0, -10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
+.varya > p {
+    font-size: 80px;
+    color: red;
+    text-align: center;
+}
+.varya > img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.productsContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}

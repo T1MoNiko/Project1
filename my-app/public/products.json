@@ -9,15 +9,14 @@
     {
         "id":1,
         "title": "gfd",
-        "imageUrl": "dfgbdfvb",
+        "imageUrl": "/img/Sneakers2.png",
         "price":1300
 
     },
-
     {
         "id":2,
         "title": "dvb",
-        "imageUrl": "dvb",
+        "imageUrl": "gfd",
         "price":1000
     },    
     {

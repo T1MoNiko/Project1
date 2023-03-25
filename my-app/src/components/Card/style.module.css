@@ -1,7 +1,7 @@
 .cardContainer {
     height: 300px;
-    width: 200px;
-    background-color: #C0C0C0	;
+    width: 220px;
+    background-color: #c1c2b6	;
     background-attachment: fixed;
     border-radius: 10px;
     position: relative;
@@ -16,8 +16,8 @@
    height: 120px;
    width: 190px;
    position: relative;
-   margin-top: 70px;
-   margin-left: 8px; 
+   margin-top: 60px;
+   margin-left: 13px; 
 }
 
 .titleCard::before {

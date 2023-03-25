@@ -10,12 +10,7 @@
     flex-direction: column;
     margin-left: 50px;
     margin-top: 80px;
-    color: white;
-    
-    
-
-    
-    
+    color: white;   
 }
 .cardContainer > img {
    height: 120px;
@@ -28,15 +23,13 @@
 .cardContainer > p {
     margin-top: 10px;
     color: black;
-    
-    
 }
 
-
-.cardContainer > hr {
-    margin: 20px 80px;
-	border: none;
-	border-top: 1px solid black;
-    width: 40px;
-      
+.titleCard::before {
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    border-top: 2px solid black;
+    margin-bottom: 8px;
+    width: 60%;
 }

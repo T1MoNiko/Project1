@@ -5,7 +5,8 @@ const Card = ({imageUrl, title, price}) => {
     return(
       <div className={styles.cardContainer}>
        <img src={imageUrl} alt="" />
-       <p>{title}</p>
+       <p>{title}</p> 
+       <hr></hr>
        <p>{price}$</p>
      </div>
     )

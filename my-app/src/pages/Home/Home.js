@@ -64,7 +64,6 @@ const Home = () => {
                     <p>Nike</p>
                     <p>Louis Vuitton</p>
                 </div>
-               
             </footer>
         </>
             

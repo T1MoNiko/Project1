@@ -40,10 +40,27 @@ const Home = () => {
                 <p>Варя я тебя люблю!!!!!</p>
                 <img src="https://thypix.com/wp-content/uploads/herzbild-1.png" alt="" />
             </div>
-            <p className={styles.footer}>
-                Our contacts:
-                +375-29-0000000
-            </p>
+            
+            <footer>
+                <div className={styles.contacts} >
+                    <h2 > 
+                         Our contacts
+                         <p> +375290000000</p>
+                         <p> +375291000000</p>
+                     </h2>
+                </div>
+                <div className={styles.brends}>
+                     <h2 >
+                          Brends
+                        <p>Bershka</p>
+                         <p>Balenciaga</p>
+                         <p>Nike</p>
+                         <p>Louis Vuitton</p>
+                     </h2>
+                </div>
+               
+                
+            </footer>
         </>
             
         

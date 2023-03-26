@@ -1,22 +1,21 @@
 header {
     width: 100%;
     height: 100vh;
-    background: url("../../../public/img/logo.jpg");
-    background-size: cover;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
+    background: url("../../../public/img/logo.jpg") no-repeat center center;
+    background-size: 100% 100%;
+
 }
 .title {
     font-size: 80px;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-left: 130px;
     color: rgb(184, 16, 58);
 }
 header > p {
     font-size: 20px;
     width: 600px;
-    margin-left: 100px;
-    color:rgb(100, 0, 25);
+    margin-left: 130px;
+    color:black;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
@@ -26,18 +25,70 @@ header > button {
     background: rgb(227, 227, 227);
     border: none;
     font-size: 20px;
-    margin-left: 100px;
+    margin-left: 130px;
     margin-top: 50px;
     border-radius: 20px;
     color: rgb(219, 11, 63);
     transition: 1s;
     cursor: pointer;
 }
-
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+header > nav > img {
+    width: 100;
+    height: 100px;
+    margin: 20px 0 0 30px;
+}
 header > button:hover {
     /* background: rgb(35, 35, 35); */
     transform: translate(0, -10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+.btnsContainer > ul {
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btnsContainer  {
+    display: flex;
+    justify-content: end;
+    margin-right: 20%;
+}
+.btnsContainer > ul > li {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.btnsContainer > ul > li:nth-child(2), li:nth-child(1) {
+    cursor: pointer;
+    transition: 1s;
+}
+.btnsContainer > ul > li:last-child {
+    border: none;
+    display: flex;
+    align-items: center
+}
+.btnsContainer > ul > li:nth-child(2):hover, li:nth-child(1):hover {
+   transform: translate(0, -3px);
+   border-color: rgb(234, 7, 7);
+}
+.accountAndCartContainer svg:first-child {
+    margin-right: 8px;
+}
+.accountAndCartContainer > svg {
+    cursor: pointer;
+    transition: 1s;
+}
+.accountAndCartContainer > svg:hover {
+    transform: translate(0, -3px);
+}
+.accountAndCartContainer {
+    margin-top: 3px;
 }
 .varya > p {
     font-size: 80px;
@@ -54,28 +105,19 @@ header > button:hover {
     grid-template-columns: repeat(5, 1fr);
 }
 footer {
-   
    height: 400px;
    width: 100%;
    background-color: black;
    color: white; 
    display: flex;
-   flex-direction: column;
-   
-  
-   
 }
 .contacts {
    max-width: 300px;
-
    margin-left: 100px;
    margin-top: 50px;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
    font-size: 30px;
-   
-
 }
 .contacts > p {
     margin-top: 20px;
@@ -84,13 +126,14 @@ footer {
 }
 .brends {
     margin-left: 700px;
-    margin-bottom: 400px; 
-}
-.brends > h2 {
-    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
 
+}
+.brends, .contacts > h2 {
+    font-size: 40px;
 }
 .brends > p {
     font-size: 20px;
-
+    margin: 5px 0;
 }

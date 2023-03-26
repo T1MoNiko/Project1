@@ -40,7 +40,12 @@ const Home = () => {
                 <p>Варя я тебя люблю!!!!!</p>
                 <img src="https://thypix.com/wp-content/uploads/herzbild-1.png" alt="" />
             </div>
+            <p className={styles.footer}>
+                Our contacts:
+                +375-29-0000000
+            </p>
         </>
+            
         
       )
 }

@@ -6,37 +6,57 @@
         "imageUrl": "/img/Snickers1.png",
         "price": 1200
     },
+
+
     {
         "id":1,
-        "title": "gfd",
-        "imageUrl": "/img/Sneakers2.png",
+        "title": "Balenciaga wer",
+        "imageUrl": "/img/sneakers2.png",
         "price":1300
 
     },
+
+
     {
         "id":2,
-        "title": "dvb",
-        "imageUrl": "gfd",
+        "title": "Bershka Simple",
+        "imageUrl": "/img/sneakers3.png",
         "price":1000
-    },    
+    },
+
+
+    
     {
         "id":3,
-        "title": "bd",
-        "imageUrl": "cskjb",
+        "title": "Nike Crazy",
+        "imageUrl": "/img/sneakers4.png",
         "price":1150
     },
+
+
+
+    
     {
         "id":4,
-        "title": "scf",
-        "imageUrl": "sjcb",
+        "title": "Blue Louis Vuitton", 
+        "imageUrl": "/img/sneakers5.png",
         "price":1500
     },
+
+
+
+    
     {
         "id":5,
-        "title": "c",
-        "imageUrl": ",nc x",
+        "title": "White Air",
+        "imageUrl": "/img/sneakers6.png",
         "price":1250
     }
+
+
+
+    
+    
 ]
 
   

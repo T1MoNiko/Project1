@@ -104,7 +104,7 @@ header > button:hover {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
-.footer {
+footer {
    height: 400px;
    width: 100%;
    background-color: black;
@@ -117,7 +117,6 @@ header > button:hover {
    margin-top: 50px;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
    font-size: 30px;
 }
 .contacts > p {
@@ -127,13 +126,14 @@ header > button:hover {
 }
 .brends {
     margin-left: 700px;
-    margin-bottom: 400px; 
-}
-.brends > h2 {
-    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
 
+}
+.brends, .contacts > h2 {
+    font-size: 40px;
 }
 .brends > p {
     font-size: 20px;
-
+    margin: 5px 0;
 }

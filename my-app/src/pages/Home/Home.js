@@ -52,21 +52,17 @@ const Home = () => {
             </div>
             
             <footer>
-                <div className={styles.contacts} >
-                    <h2 > 
-                         Our contacts
+                <div className={styles.contacts}>
+                    <h2 >Our contacts</h2>
                          <p> +375290000000</p>
                          <p> +375291000000</p>
-                     </h2>
                 </div>
                 <div className={styles.brends}>
-                     <h2 >
-                          Brends
-                        <p>Bershka</p>
-                         <p>Balenciaga</p>
-                         <p>Nike</p>
-                         <p>Louis Vuitton</p>
-                     </h2>
+                    <h2>Brends</h2>
+                    <p>Bershka</p>
+                    <p>Balenciaga</p>
+                    <p>Nike</p>
+                    <p>Louis Vuitton</p>
                 </div>
                
             </footer>

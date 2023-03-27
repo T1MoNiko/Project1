@@ -34,4 +34,16 @@
     margin-top: 10px;
     color: black;
 }
+.cardContainer:hover {
+        transform: translate(0, -8px) scale(1.02);
+    }
+.cardContainer > svg {
+    color: black;
+    margin-left: 190px;
+    display: flex;
+    align-items:start;
+    cursor: pointer;
+    
+}
+    
 

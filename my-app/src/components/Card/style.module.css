@@ -33,4 +33,20 @@
     margin-top: 10px;
     color: black;
 }
+.cardContainer:hover {
+    transform: translate(0, -10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    transition-duration: 1s;
+    
+}
+.cardContainer > svg {
+    color: black;
+    margin-left: 190px;
+    display: flex;
+    align-items:start;
+    cursor: pointer;
+    
+}
+
+
 

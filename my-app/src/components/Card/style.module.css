@@ -38,12 +38,15 @@
         transform: translate(0, -8px) scale(1.02);
     }
 .cardContainer > svg {
+    position: absolute;
+    right: 20px;
+    top: 15px;
     color: black;
-    margin-left: 190px;
-    display: flex;
-    align-items:start;
     cursor: pointer;
-    
+    transition: .5s;   
+}
+.cardContainer > svg:hover {
+    color: green
 }
     
 

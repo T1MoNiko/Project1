@@ -3,7 +3,7 @@
     {
         "id": 0,
         "title": "Bershka Inditex",
-        "imageUrl": "/img/Snickers1.png",
+        "imageUrl": "/img/Sneakers1.png",
         "price": 1200
     },
     {
@@ -27,7 +27,7 @@
     },
     {
         "id":4,
-        "title": "Blue Louis Vuitton", 
+        "title": "Blue Louis Vuitton Monogram Denim", 
         "imageUrl": "/img/sneakers5.png",
         "price":1500
     },
@@ -39,8 +39,26 @@
     },
     {
         "id": 6,
-        "title": "Bershka Black And White",
+        "title": "Adidas Ozweego",
         "imageUrl": "/img/sneakers7.png",
+        "price": 1100
+    },
+    {
+        "id": 7,
+        "title": "Bershka Black And White",
+        "imageUrl": "/img/sneakers8.png",
+        "price": 1100
+    },
+    {
+        "id": 8,
+        "title": "Bershka Black And White",
+        "imageUrl": "/img/sneakers9.png",
+        "price": 1100
+    },
+    {
+        "id": 9,
+        "title": "Air Jorden 11 Retro",
+        "imageUrl": "/img/sneakers10.png",
         "price": 1100
     }
 ]

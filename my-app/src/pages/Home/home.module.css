@@ -1,4 +1,4 @@
-header {
+.homeHeader {
     width: 100%;
     height: 100vh;
     background: url("../../../public/img/newLogo.png") no-repeat center center;
@@ -11,7 +11,7 @@ header {
     margin-left: 130px;
     color: rgb(184, 16, 58);
 }
-header > p {
+.homeHeader > p {
     font-size: 20px;
     width: 600px;
     margin-left: 130px;
@@ -20,7 +20,7 @@ header > p {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
 }
-header > button {
+.homeHeader > button {
     padding: 20px 50px;
     background: rgb(227, 227, 227);
     border: none;
@@ -32,17 +32,17 @@ header > button {
     transition: 1s;
     cursor: pointer;
 }
-header > nav {
+.homeHeader > nav {
     display: flex;
     justify-content: space-between;
     align-items: start;
 }
-header > nav > img {
+.homeHeader > nav > img {
     width: 100;
     height: 100px;
     margin: 20px 0 0 30px;
 }
-header > button:hover {
+.homeHeader > button:hover {
     /* background: rgb(35, 35, 35); */
     transform: translate(0, -10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
@@ -102,8 +102,10 @@ header > button:hover {
 }
 .productsContainer {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 20%);
+    justify-items: center;
 }
+
 footer {
    height: 400px;
    width: 100%;
@@ -111,6 +113,7 @@ footer {
    color: white; 
    display: flex;
    justify-content: space-around;
+   margin-top: 50px;
 }
 .contacts {
    max-width: 300px;

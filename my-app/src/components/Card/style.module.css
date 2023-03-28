@@ -8,7 +8,6 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
     margin-top: 80px;
     color: white;   
     transition: .7s ease-in-out;
@@ -45,8 +44,10 @@
     cursor: pointer;
     transition: .5s;   
 }
-.cardContainer > svg:hover {
+.add:hover {
     color: green
 }
-    
+.remove:hover {
+    color: rgb(167, 5, 5);
+}
 

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400&family=Roboto+Mono:wght@300;400;500;600&display=swap');
+.cartProducts {
+    display: grid;
+    width: 65%;
+    grid-template-columns: repeat(4, 25%);
+}
+.cartNav {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.cartNav > p {
+    font-size: 30px;
+    margin-left: 20px;
+}
+.cartNav > a > svg {
+    margin-left: 10px;
+}
+.cartNav > a {
+    text-decoration: none;
+    color: black
+}
+.cartTitle {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto Mono';
+}
+.cartEmpty {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    margin-top: 40px;
+}
+.sidebar {
+    width: 25%;
+    margin-right: 50px;
+}
+.info {
+    width: 100%;
+    height: 300px;
+    background: #BEBEBE;
+    margin-top: 80px;
+}
+.info > h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 10px 0 0 0;
+}
+.info > p {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.cartContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.sidebar div:nth-child(2) {
+    width: 100%;
+    height: 50px;
+    background: #BEBEBE;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.sidebar div:nth-child(3) {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #45B234;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}

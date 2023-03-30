@@ -40,7 +40,7 @@
 .info {
     width: 100%;
     height: 300px;
-    background: #BEBEBE;
+    background: hsl(0, 0%, 49%);
     margin-top: 80px;
 }
 .info > h2 {

@@ -1,20 +1,21 @@
 import styles from './style.module.css'
 
+import React from 'react';
 import { addToCart, deleteFromCart } from '../../redux/cartSlice';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useCallback } from 'react';
 
-const Card = (props) => {
+const Card = React.memo((props) => {
   const [added, setAdded] = useState(false)
   const {imageUrl, title, price, id} = props
   const dispatch = useDispatch()
 
   const { products } = useSelector(state => state.CartReducer)
+  console.log('card')
   useEffect(() => {
     products.some((item) => Number(item.id) === Number(id)) ? setAdded(true) : setAdded(false)
   }, [])
-
+          
     function setCart() {
       if (added) {
         dispatch(deleteFromCart(id))
@@ -27,7 +28,6 @@ const Card = (props) => {
     return(
       <div className={styles.cardContainer}>
         <img src={imageUrl} alt="" />
-        
         <svg onClick={() => setCart()} className={added ? styles.remove : styles.add} xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
           {!added ?  
                     <>
@@ -45,6 +45,6 @@ const Card = (props) => {
         <p>{price}$</p>
      </div>
     )
-}
+})
 
 export default Card;

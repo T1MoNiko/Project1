@@ -1,0 +1,50 @@
+.regContainer {
+    width: 100%;
+    height: 100vh;
+    /* background: radial-gradient(circle, rgba(114,131,217,0.8968837535014006) 0%, rgba(58,214,206,1) 33%, rgba(103,255,143,1) 100%); */
+    /* background: linear-gradient(163deg, rgba(54,228,228,1) 7%, rgba(63,187,113,1) 50%, rgba(68,255,93,1) 90%); */
+    /* background: linear-gradient(163deg, rgba(54,228,228,1) 7%, rgba(63,187,113,1) 50%, rgba(68,255,93,0.7820378151260504) 93%); */
+    background: linear-gradient(213deg, rgba(58,177,180,1) 0%, rgba(29,253,126,1) 50%, rgba(69,230,252,1) 100%);
+}
+.regBox {
+    width: 25%;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5%;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.regBox > h1  {
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+}
+.regBox > input {
+    width: 80%;
+    padding: 12px 15px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+}
+.regBox > input::placeholder {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+.regBox > button {
+    padding: 15px 25%;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(19, 19, 69);
+    color: white;
+    cursor: pointer;
+}

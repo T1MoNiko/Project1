@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom'
 
 const Cart = () => {
     const { products } = useSelector(store => store.CartReducer)
+
+    const totalPrice = products.reduce((acc, next) => acc + next.price, 0)
+    const discount = 0
+
     console.log(products)
     return (
         <>
@@ -30,13 +34,13 @@ const Cart = () => {
                     <div className={styles.sidebar}>
                         <div className={styles.info}>
                             <h2>Order Information</h2>
-                            <p>Number Of Products:</p>
-                            <p>Delivery:</p>
-                            <p>Discount:</p>
-                            <p>Products price:</p>
+                            <p>Number Of Products: {products.length}</p>
+                            <p>Delivery: {totalPrice * 0.02}$</p>
+                            <p>Discount: 0</p>
+                            <p>Products price: {totalPrice}$</p>
                         </div>
                         <div>
-                            <p>Total:</p>
+                            <p>Total: {totalPrice + (totalPrice * 0.02) + discount}$</p>
                         </div>
                         <div>
                             <p>Checkout</p>

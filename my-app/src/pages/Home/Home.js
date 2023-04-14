@@ -2,10 +2,12 @@ import styles from "./home.module.css"
 
 import Card from "../../components/Card/Card"
 
+import React from "react"
 import axios from "axios"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import { useRef } from "react"
+import { useEffect } from "react"
 
 const Home = () => {
     const [state, setState] = useState()
@@ -13,11 +15,13 @@ const Home = () => {
     const catalog = useRef(null)
     const footer = useRef(null)
 
-    async function Response() {
-       const { data } = await axios.get("/products.json")
-       setState(data)
-    }
-    Response()
+    useEffect(() => {
+        async function Response() {
+            const { data } = await axios.get("/products.json")
+            setState(data)
+         }
+         Response()
+    }, [])
     return (
         <>
             <header className={styles.homeHeader}>
